@@ -1,6 +1,14 @@
 # AngularApiMarvel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+* Projeto de avaliação técnica para empresa .add. Desenvolvimento de uma aplicação Angular com conexão de API da Marvel.
+* Versão do [Angular CLI](https://github.com/angular/angular-cli) 8.2.0.
+
+## Bootstrap
+
+* Instale o bootstrap na pasta raiz do projeto, utilizando o comando `npm install bootstrap --save`.
+* Adicione no arquivo de estilo global de sua aplicação `src/styles.css` o import do bootstrap `@import '~bootstrap/dist/css/bootstrap.min.css';`.
+<br>
+* Versão do [Bootstrap](shttps://www.npmjs.com/package/bootstrap) 4.6.0.
 
 ## Development server
 
