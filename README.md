@@ -13,26 +13,21 @@
 * O legal dele é que utiliza os mesmos estilos, todos os componentes foram recriado e contém o mesmo comportamento, podendo utiliza as tags e classes do css bootstrap porém com código angular.
 * Comando de instalação: `npm install ngx-bootstrap --save`.
 
-## Development server
+## Desafio
+1. Crie uma conta em `https://developer.marvel.com`;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Obtenha as Keys para serem usadas nas requisições http;
 
-## Code scaffolding
+3. A URL base da API é `http(s)://gateway.marvel.com`;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Os recursos disponíveis se encontram na página `https://developer.marvel.com/documentation/generalinfo`;
 
-## Build
+5. Dentre os recursos disponíveis abaixo, escolha 2 para implementação, Retornando collections (HTTP.GET) de cada um dos dois;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+6. Mapear as Entidades disponíveis na documentação da API para o retorno das informações de acordo com os dois recursos escolhidos;
 
-## Running unit tests
+7. Crie pelo menos 1 modulo com 2 rotas para exibir as informações, uma rota para cada recurso disponível;
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+8. Use injeção de dependências no angular para injeção do serviço de consumo da API;
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+9. Use bootstrap para deixar o design responsivo;
