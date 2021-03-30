@@ -1,14 +1,17 @@
 # AngularApiMarvel
-
 * Projeto de avaliação técnica para empresa .add. 
-* Desenvolvimento de uma aplicação Angular com conexão de API da Marvel.
+* Desenvolvimento de uma aplicação Angular com conexão a API da Marvel.
 * Versão do [Angular CLI](https://github.com/angular/angular-cli) 8.2.0.
 
 ## Bootstrap
-
-* Instalação do bootstrap na pasta raiz do projeto, utilizando o comando `npm install bootstrap --save`.
-* Adicionado o import `@import '~bootstrap/dist/css/bootstrap.min.css';` no arquivo de estilo global `src/styles.css`.
+* Instalação do bootstrap na pasta raiz do projeto `npm install bootstrap --save`.
+* Adicionado o import `@import '~bootstrap/dist/css/bootstrap.min.css';` no arquivo de estilo global `src/styles.css` para aplicar o framework de responsividade.
 * Versão do [Bootstrap](shttps://www.npmjs.com/package/bootstrap) 4.6.0.
+
+### ngx-bootstrap
+* Também instalei o ngx-bootstrap que é uma biblioteca que dá suporte tanto quanto a versão 3 e 4 do Bootstrap e a API é similar.
+* O legal dele é que utiliza os mesmos estilos, todos os componentes foram recriado e contém o mesmo comportamento, podendo utiliza as tags e classes do css bootstrap porém com código Angular.
+* Comando: `npm install ngx-bootstrap --save`
 
 ## Development server
 
