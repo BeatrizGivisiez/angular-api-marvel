@@ -9,7 +9,7 @@
 * Versão do [Bootstrap](shttps://www.npmjs.com/package/bootstrap) 4.6.0.
 
 ### ngx-bootstrap
-* Também instalei o `ngx-bootstrap` que é uma biblioteca que dá suporte ao boostrap em sua versão 3 e 4.
+* Adicionado `ngx-bootstrap` biblioteca que dá suporte ao boostrap em sua versão 3 e 4.
 * O legal dele é que utiliza os mesmos estilos, todos os componentes foram recriado e contém o mesmo comportamento, podendo utiliza as tags e classes do css bootstrap porém com código angular.
 * Comando de instalação: `npm install ngx-bootstrap --save`.
 
