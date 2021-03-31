@@ -6,7 +6,7 @@
 ## Bootstrap
 * Instalação do bootstrap na pasta raiz do projeto `npm install bootstrap --save`.
 * Adicionado o import `@import '~bootstrap/dist/css/bootstrap.min.css';` no arquivo de estilo global `src/styles.css` para aplicação do framework de responsividade.
-* Versão do [Bootstrap](shttps://www.npmjs.com/package/bootstrap) 4.6.0.
+* Versão do [Bootstrap](https://www.npmjs.com/package/bootstrap) 4.6.0.
 
 ### ngx-bootstrap
 * Adicionado `ngx-bootstrap` biblioteca que dá suporte ao boostrap em sua versão 3 e 4.
